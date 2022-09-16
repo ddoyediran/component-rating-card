@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+  /* margin-block-start: 50%; */
+  /* justify-content: center; */
+  background-color: hsl(216, 12%, 8%);
+}
+
+.parent-container {
+  display: gird;
+  height: 100vh;
+  /* justify-content: center;
+  align-content: center; */
+  /* border: 2px solid red; */
+}
+
+.card-container {
+  width: 90%;
+  margin: 0 auto;
+  background-color: hsl(213, 19%, 18%);
+  padding: 2rem;
+  border-radius: 1.5em;
+  /* border: 2px solid red; */
+}
+
+.star-div {
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  background-color: hsl(211, 20%, 23%);
+  margin-block-end: 1.5em;
+  /* border: 2px red solid; */
+}
+
+.star {
+  width: 80%;
+  height: 80%;
+  margin: 1em 1em;
+  /* border: 2px yellow solid; */
+}
+
+.text-container {
+  margin-block-end: 2em;
+}
+
+.title {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  margin-block-end: 0.7em;
+}
+
+.paragraph-content {
+  color: hsl(217, 12%, 63%);
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  /* border: 2px solid red; */
+}
+
+.rating-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.8em;
+  margin-block-end: 2em;
+  /* border: 2px solid red; */
+}
+
+.rate {
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  background-color: hsl(211, 20%, 23%);
+  color: hsl(217, 12%, 63%);
+  padding: 1em 1em;
+}
+
+.submit-btn {
+  font-size: 1.5rem;
+  width: 100%;
+  height: 2.5em;
+  border: none;
+  border-radius: 30px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+}

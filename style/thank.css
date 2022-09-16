@@ -1,0 +1,22 @@
+.thank-image {
+  width: 55%;
+  margin: 0 auto;
+  margin-block-end: 2em;
+  /* border: 2px solid green; */
+}
+
+.rating-output-content {
+  /* border: 2px solid green; */
+  margin: 0 auto;
+  padding-block-start: 0.2em;
+  margin-block-end: 2em;
+  width: 65%;
+  text-align: center;
+  background-color: hsl(212, 20%, 29%);
+  color: hsl(25, 97%, 53%);
+  border-radius: 3rem;
+}
+
+.text-container {
+  text-align: center;
+}
