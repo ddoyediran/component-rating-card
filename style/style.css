@@ -90,4 +90,10 @@ body {
   border-radius: 30px;
   color: hsl(0, 0%, 100%);
   background-color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(0, 0%, 100%);
 }
