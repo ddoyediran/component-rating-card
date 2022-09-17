@@ -15,10 +15,10 @@ body {
 }
 
 .parent-container {
-  display: gird;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100vh;
-  /* justify-content: center;
-  align-content: center; */
   /* border: 2px solid red; */
 }
 
