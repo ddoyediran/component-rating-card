@@ -96,6 +96,10 @@ body {
   background-color: hsl(0, 0%, 100%);
 }
 
+#dami {
+  background-color: hsl(25, 97%, 53%);
+}
+
 @media (min-width: 500px) {
   .card-container {
     width: 30%;
