@@ -96,7 +96,8 @@ body {
   background-color: hsl(0, 0%, 100%);
 }
 
-#dami {
+#activeBg {
+  color: hsl(0, 0%, 100%);
   background-color: hsl(25, 97%, 53%);
 }
 
