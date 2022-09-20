@@ -80,6 +80,24 @@ body {
   padding: 1em 1em;
 }
 
+/* Updated from here */
+
+label {
+  position: relative;
+  /* background-color: hsl(25, 97%, 53%); */
+}
+
+input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+}
+
+input[type="radio"]:checked {
+  background-color: hsl(25, 97%, 53%);
+}
+
+/* Till here */
+
 .submit-btn {
   font-size: 1.5rem;
   width: 100%;

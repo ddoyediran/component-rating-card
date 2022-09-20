@@ -1,13 +1,16 @@
 let rating_section = document.querySelector(".rating-container");
 
 rating_section.addEventListener("click", function (event) {
+  event.preventDefault();
+
   //   console.log("This was clicked!");
-  //   console.log(rating_section.children);
+  console.log(rating_section.children);
 
   let isClicked = false;
 
   function clickedBtn() {
     let elementIdName = event.target.id;
+    console.log("Selected element ", elementIdName);
     let previousElement = document.getElementById(elementIdName)
       .previousElementSibling;
 
@@ -44,7 +47,7 @@ rating_section.addEventListener("click", function (event) {
   // displayRating.innerText = `You selected ${displayRating} out of 5`;
 
   let displayString = `You selected ${selectedNumber} out of 5`;
-  //console.log(displayString);
+  console.log(displayString);
 
   //   document.querySelector(".rating-output-text").innerHTML = displayString;
   //   document.getElementById("display-rating").innerHTML = displayString;
