@@ -84,39 +84,3 @@ allStarsElement.forEach((element, i) => {
     });
   });
 });
-
-// let i = 0;
-
-// while (i < all_stars_element.length) {
-//   console.log(all_stars_element[i]);
-//   console.log(i);
-
-//   all_stars_element[i].addEventListener("click", function (event) {
-//     let currentElementIndex = i + 1;
-//     console.log(i + 1);
-//     let j = 0;
-
-//     let elementIdName = event.target.id;
-//     console.log("T ", elementIdName);
-
-//     while (j < all_stars_element.length) {
-//       if (currentElementIndex >= j + 1) {
-//         all_stars_element[j].style.backgroundColor = "#fb7413";
-//         all_stars_element[j].style.color = "ffffff";
-//       } else {
-//       }
-
-//       j++;
-//     }
-//   });
-//   i++;
-// }
-
-// all_stars_element.addEventListener("click", function (event) {
-//   let i = 0;
-
-//   while (i < all_stars_element.length) {
-//     console.log(all_stars_element[i]);
-//     console.log(i);
-//   }
-// });
