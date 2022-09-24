@@ -63,7 +63,7 @@
 
 // let submitBtn = document.getElementById("submit-btn");
 
-/// New way ///
+//// New way ////
 let allStarsElement = document.querySelectorAll(".rate");
 
 // console.log(allStarsElement);
