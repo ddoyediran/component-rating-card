@@ -82,9 +82,9 @@ body {
 
 /* Updated from here during call */
 
-label {
+/* label {
   position: relative;
-  /* background-color: hsl(25, 97%, 53%); */
+  background-color: hsl(25, 97%, 53%);
 }
 
 input[type="radio"] {
@@ -94,7 +94,7 @@ input[type="radio"] {
 
 input[type="radio"]:checked {
   background-color: hsl(25, 97%, 53%);
-}
+} */
 
 /* Till here */
 
@@ -112,11 +112,6 @@ input[type="radio"]:checked {
 .submit-btn:hover {
   color: hsl(25, 97%, 53%);
   background-color: hsl(0, 0%, 100%);
-}
-
-#activeBg {
-  color: hsl(0, 0%, 100%);
-  background-color: hsl(25, 97%, 53%);
 }
 
 @media (min-width: 500px) {
