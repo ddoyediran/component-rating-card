@@ -86,11 +86,15 @@ let allStarsElement = document.querySelectorAll(".rate");
 //   });
 // });
 
+let ratingClicked;
+
 allStarsElement.forEach((element, i) => {
   // console.log(element);
   element.addEventListener("click", function (event) {
     let currentElementIndex = i + 1;
     let previousElementIndex = i;
+
+    ratingClicked = currentElementIndex;
 
     allStarsElement.forEach((element, j) => {
       if (j + 1 === currentElementIndex) {
@@ -108,4 +112,17 @@ allStarsElement.forEach((element, i) => {
       }
     });
   });
+});
+
+/// thank you js ///
+
+let submitForm = document.getElementById("submit-form");
+
+submitForm.addEventListener("submit", (event) => {
+  //event.preventDefault;
+
+  // Remove all saved data from sessionStorage
+  sessionStorage.clear();
+
+  sessionStorage.setItem("rating", ratingClicked);
 });
