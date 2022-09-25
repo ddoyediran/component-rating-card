@@ -13,5 +13,5 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ddoyediran/component-rating-card)
-- Live Site URL: [Add live site URL here](https://component-rating-card-zmhq.vercel.app/)
+- Solution URL: [Github solution URL here](https://github.com/ddoyediran/component-rating-card)
+- Live Site URL: [Live site URL here](https://component-rating-card-zmhq.vercel.app/)
