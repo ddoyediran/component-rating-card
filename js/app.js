@@ -68,16 +68,41 @@ let allStarsElement = document.querySelectorAll(".rate");
 
 // console.log(allStarsElement);
 
+// allStarsElement.forEach((element, i) => {
+//   // console.log(element);
+//   element.addEventListener("click", function (event) {
+//     let currentElementIndex = i + 1;
+//     // let previousElementIndex = i - 1;
+
+//     allStarsElement.forEach((element, j) => {
+//       if (currentElementIndex >= j + 1) {
+//         element.style.backgroundColor = "#fb7413";
+//         element.style.color = "#ffffff";
+//       } else {
+//         element.style.backgroundColor = "#2f3a46";
+//         element.style.color = "#959eac";
+//       }
+//     });
+//   });
+// });
+
 allStarsElement.forEach((element, i) => {
   // console.log(element);
   element.addEventListener("click", function (event) {
     let currentElementIndex = i + 1;
+    let previousElementIndex = i;
 
     allStarsElement.forEach((element, j) => {
-      if (currentElementIndex >= j + 1) {
+      if (j + 1 === currentElementIndex) {
+        //console.log(element);
         element.style.backgroundColor = "#fb7413";
         element.style.color = "#ffffff";
+      } else if (j + 1 === previousElementIndex) {
+        //console.log("prev", element);
+        element.style.backgroundColor = "#959eac";
+        element.style.color = "#ffffff";
       } else {
+        //console.log("others ", element);
         element.style.backgroundColor = "#2f3a46";
         element.style.color = "#959eac";
       }
