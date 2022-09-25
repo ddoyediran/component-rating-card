@@ -1,4 +1,3 @@
-//// New way ////
 let allStarsElement = document.querySelectorAll(".rate");
 
 // allStarsElement.forEach((element, i) => {
@@ -52,7 +51,7 @@ allStarsElement.forEach((element, i) => {
 let submitForm = document.getElementById("submit-form");
 
 submitForm.addEventListener("submit", (event) => {
-  //event.preventDefault;
+  //event.preventDefault();
 
   // Remove all saved data from sessionStorage
   sessionStorage.clear();
